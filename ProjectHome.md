@@ -1,0 +1,7 @@
+The MyESB is an open source ESB (Enterprise Service Bus) that combines the functionality of a Service Oriented Architecture (SOA) and an Model/Event Driven Architecture (MDA/EDA)  to create an agile, enterprise ESB.
+
+The Enterprise Service Bus (ESB) has always been the cornerstone of any vendor's SOA strategy. In the past, however, ESBs have often failed to help leverage the full value of SOA because of their large footprint, the centralized architecture and the considerable effort required to properly integrate them into an existing application landscape.
+
+This is why MyESB takes a different approach. MyESB provides an extensible framework that allows application developers and system integrators alike to build their own ESB — taylor-made to their requirements.
+
+The MyESB framework is based on standards that are relevant in the SOA space today. On the lowest level there's OSGi, or more specifically, Equinox, the Eclipse Foundation's OSGi implementation. OSGi provides among other things the component model, a deployment mechanism for modules and a clean class loading system. On a higher level, MyESB is using a subset of the SCA/JBI standard for messaging abstraction and message routing between components.
